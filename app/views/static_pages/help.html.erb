@@ -1,0 +1,7 @@
+<% provide :title, t(".title") %>
+  <h1 class="center" style="color: blue; font-size: 50px;"> Help </h1>
+    <div style="margin-left: 50px; font-size: 20px; " class="center">
+      <p> <%= t(".descripiton", link: link_to(t("about_rails"), "http://www.railstutorial.org/help/")).html_safe %></p>
+      <p><%= t(".descripiton2", link: link_to(t("rails_tutorial"), "http://www.railstutorial.org/book/")).html_safe %></p>
+    </div>
+
