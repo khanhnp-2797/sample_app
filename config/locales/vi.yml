@@ -6,8 +6,13 @@ vi:
   help: " Trợ giúp"
   login: "Đăng nhập"
   sign_up_now: "Đăng ký ngay!"
+  profile: "Thông tin"
   sample: "Ứng dụng mẫu"
   sign_up: "Đăng ký"
+  setting: "Cài đặt"
+  log_out: "Thoát"
+  invalid_email_password: "Tài khoản hoặc mật khẩu không đúng !"
+  welcome_to_app: "Chào mừng đến với ứng dụng"
   static_pages:
     home:
       heading: "Chào mừng bạn đến với chúng tôi!"
@@ -27,4 +32,14 @@ vi:
       confirmation: "Nhập lại mật khẩu"
       create_account: "Tạo tài khoản"
       not_found: "Người dùng không tồn tại" 
-   
+      create_account: "Tạo tài khoản"  
+  sessions:
+    new:
+      title: "Đăng nhập "
+      heading: "Đăng nhập!"
+      sign_up: "đăng ký ngay!"
+      login_acount: "Đăng nhập "
+      new_user: "Thêm mới tài khoản ?"
+      remember_me: "Ghi nhớ tài khoản "
+      email: "Email"
+      password: "Mật khẩu"
