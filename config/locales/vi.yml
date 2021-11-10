@@ -7,6 +7,7 @@ vi:
   login: "Đăng nhập"
   sign_up_now: "Đăng ký ngay!"
   sample: "Ứng dụng mẫu"
+  sign_up: "Đăng ký"
   static_pages:
     home:
       heading: "Chào mừng bạn đến với chúng tôi!"
@@ -17,4 +18,13 @@ vi:
       descripiton2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem <em>%{link}</em>"
       title: "Trợ giúp"
       heading: "Trợ giúp!"
-      
+  users:
+    new:
+      title: "Đăng ký"
+      name: "Họ tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Nhập lại mật khẩu"
+      create_account: "Tạo tài khoản"
+      not_found: "Người dùng không tồn tại" 
+   

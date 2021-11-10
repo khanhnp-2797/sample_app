@@ -7,6 +7,7 @@ en:
   login: "Login"
   sign_up_now: "Sign up now!"
   sample : "sample app"
+  sign_up: "Sign up"
   static_pages:
     home:
       heading: "Welcome to the Sample App"
@@ -17,4 +18,13 @@ en:
       heading: "Help!"
       descripiton: "Get help on the Ruby on Rails Tutorial at the %{link} sample application."
       descripiton2: "To get help on this sample app, see the <em>%{link}</em> book"
+  users:
+    new:
+      title: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      create_account: "Create my account"
+      not_found: "User not found"
 
