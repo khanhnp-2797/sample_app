@@ -1,0 +1,20 @@
+vi:
+  rails_tutorial: "Hướng dẫn sử dụng Ruby on Rails"
+  english: "Tiếng Anh"
+  vietnamese: "Tiếng Việt"
+  home: "Trang chủ"
+  help: " Trợ giúp"
+  login: "Đăng nhập"
+  sign_up_now: "Đăng ký ngay!"
+  sample: "Ứng dụng mẫu"
+  static_pages:
+    home:
+      heading: "Chào mừng bạn đến với chúng tôi!"
+      descripiton: "Đây là trang chủ của %{link} cho ứng dụng mẩu."
+      title: "Trang chủ"
+    help:
+      descripiton: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{link} ứng dụng mẫu."
+      descripiton2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem <em>%{link}</em>"
+      title: "Trợ giúp"
+      heading: "Trợ giúp!"
+      
