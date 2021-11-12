@@ -17,3 +17,4 @@ en:
       heading: "Help!"
       descripiton: "Get help on the Ruby on Rails Tutorial at the %{link} sample application."
       descripiton2: "To get help on this sample app, see the <em>%{link}</em> book"
+

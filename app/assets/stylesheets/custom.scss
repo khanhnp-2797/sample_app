@@ -34,11 +34,21 @@ textarea {
 #logo:hover {
   color: #fff;
   text-decoration: none;
+  padding-top: 30px;
 }
 
-li{
-  display : inline-block;
-  margin-left : 20px;
-  font-size : 20px;
-  text-decoration : none;
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center;
+}
+
+.center h1 {
+  margin-bottom: 10px;
 }
