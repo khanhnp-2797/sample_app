@@ -12,7 +12,7 @@ class User < ApplicationRecord
     {
       minimum: Settings.length.digit_6,
       maximum: Settings.length.digit_255
-    }
+    }, allow_nil: true
   validates :password_confirmation, presence: true
   validates :email, presence: true, uniqueness: true,
     length: {maximum: Settings.length.digit_255},
@@ -48,4 +48,5 @@ class User < ApplicationRecord
   def forget
     update_column :remember_digest, nil
   end
+
 end
