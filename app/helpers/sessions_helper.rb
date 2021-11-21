@@ -31,6 +31,14 @@ module SessionsHelper
     cookies.permanent[:remember_token] = user.remember_token
   end
 
+  def check_remember user
+    if params[:session][:remember_me] == Settings.checked_1
+      remember user
+    else
+      forget user
+    end
+  end
+
   def forget user
     user.forget
     cookies.delete(:user_id)

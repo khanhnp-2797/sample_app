@@ -118,3 +118,8 @@ en:
     post: "Post"
     microposts: "Microposts"
     max_file_5mb: "Maximum file size is 5MB. Please choose a smaller file."
+  follow:
+    followers: "Followers"
+    following: "Following"
+    follow: "Follow"
+    unfollow: "Unfollow"
