@@ -38,16 +38,25 @@ vi:
   password_empty: "Mật khẩu không được trống"
   has_expired": "Hết hạn lấy lại mật khẩu"
   reset_password_success: "Đã tạo lại mật khẩu thành công"
+  view_my_profile: "Xem trang cá nhân"
   static_pages:
     home:
       heading: "Chào mừng bạn đến với chúng tôi!"
       descripiton: "Đây là trang chủ của %{link} cho ứng dụng mẩu."
       title: "Trang chủ"
+      micropost_feed: "Micropost Feed"
     help:
       descripiton: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{link} ứng dụng mẫu."
       descripiton2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem <em>%{link}</em>"
       title: "Trợ giúp"
       heading: "Trợ giúp!"
+    errors:
+      models:
+        micropost:
+          attributes:
+            image:
+              valid_image_format: "Must be a valid image format"
+              less_than_5mb: "Should be less than 5MB"
   users:
     delete: "Xóa"
     name: "Họ tên"
@@ -83,3 +92,15 @@ vi:
     link_reset: "Reset mật khẩu"
     email_sent_instructions: "Email gửi with password reset instructions!"
     email_not_found: "Không tìm thấy địa chỉ email!"
+  posts:
+    post_created: "Đã tạo bài viết!"
+    post_deleted: "Đã xóa bài viết"
+    deleted_fail: "Xóa thất bại!"
+    post_invalid: "Micropost không đúng"
+    delete: "Xóa"
+    you_sure: "Bạn có chắc?"
+    time_post: "Bài viết %{time} trước"
+    compose_micropost: "Nội dung..."
+    post: "Đăng"
+    microposts: "Microposts"
+    max_file_5mb: "File tối đa 5MB"
